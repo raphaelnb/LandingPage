@@ -2,11 +2,10 @@
 @import url(https://fonts.google.com/specimen/Roboto);
 
 .banner {
-    background-color: darkred;
+    background-color: brown;
     color: white;
     font-family: "Roboto";
-    opacity: .92;
-   padding: 0 !important;
+    padding-top: 5%;
 }
 
 
@@ -20,17 +19,32 @@
     background-color: white;
     padding: 3%;
     color: orange;
-    width: 80%;
+    width: fit-content;
     border-radius: 5%;
-    margin: 0 2% 0 2%;
     font-size: 3vw;
     font-weight: 700;
 }
 
+#btn1 {
+    color: #fff;
+    font-weight: 700;
+}
 
+#chamada {
+    margin-top: 5%;
+}
+
+#prod {
+    margin-top: 10%;
+}
 
 #img-logo {
     width: 261px;
+    height: auto;
+}
+
+#logoFooter {
+    width: 208px;
     height: auto;
 }
 
@@ -49,6 +63,41 @@
     height: auto;
 }
 
+.p-footer {
+    color: brown;
+}
+
 .tpd {
     color:black;
+}
+
+.hr {
+    background-color: brown;
+    background-size: 5px;
+}
+
+#tel-footer {
+    background-color: brown;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+}
+
+.testemunhos {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#test-ttl {
+    color: #9e9e9e;
+}
+
+#test-frs {
+    color: #757575;
+}
+
+.footer {
+    margin-top: 5%;
 }

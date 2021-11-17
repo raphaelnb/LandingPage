@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid gx-5 bg-danger banner">
+    <div class="container-fluid gx-5 banner">
         <div class="row ms-5" id="row-pnl">
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 fs-4">(21) 3500-6742</div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4"><img src="imagens/far_melhor.webp" alt=""  id="img-logo"></div>
@@ -19,7 +19,9 @@
         <div class="row gx-5 ms-5">
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="row mt-5" id="gg">GANHE</div>
-                <div class="row bg-white rounded-2 w-75 fs-2 text-warning" id="">ENTREGA GRÁTIS</div>
+                <div class="row w-75 fs-2">
+                    <p  id="ent">ENTREGA GRÁTIS</p>
+                </div>
                 <div class="row">entregamos no recreio em até 15 minutos</div>
                 <button type="button" class="row rounded-pill btn btn-succes bg-success p-3 w-50 mt-5 fs-3" id="btn1">QUERO</button>
             </div>
@@ -27,28 +29,28 @@
                 <img src="imagens/farmaceutico-farmelhor.webp" alt="" id="img-bnc">
             </div>
         </div>
-        <div class="row w-75 fs-3 rounded-2 bg-secondary justify-content-center offset-md-2 p-3">
+        <div class="row w-75 fs-3 rounded-2 bg-secondary justify-content-center offset-md-2 p-3" id="chamada">
             Aqui seu dinheiro vale mais!
         </div>
     </div>
     <!--<div class="container-fluid">
         
     </div>-->
-    <div class="container-fluid">
+    <div class="container-fluid" id="prod">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-sm-3">
                 <img src="imagens/01.webp" class="pd mx-auto d-block" alt="">
-                <div class="col-lg-3">
+                <div class="col">
                     <p class="fs-5 tpd text-center fw-bold">Desinchá Hibiscus Pink Lemonade - Edição Especial</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col">
                     <p class="fs-6 text-center text-decoration-line-through">De: R$ 79,95</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col">
                     <p class="fs-5 text-center fw-bold">Por: R$ 61,99</p>
                 </div>               
             </div>
-            <div class="col-sm-12 col-lg-3">
+            <div class="col-sm-3">
                 <img src="imagens/02.jpg" class="pd mx-auto d-block" alt="">
                 <div class="col-sm-12">
                     <p class="fs-5 tpd text-center fw-bold">Fralda Huggies Tripla Proteção</p>
@@ -60,7 +62,7 @@
                     <p class="fs-5 text-center fw-bold">Por: R$ 31,99</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-3">
+            <div class="col-sm-3">
                 <img src="imagens/03.webp" class="pd mx-auto d-block mt-2" alt="">
                 <div class="col-sm-12">
                     <p class="fs-5 tdp text-center fw-bold mt-4">Protetor Labial Carmed cereja/pêssego</p>
@@ -72,7 +74,7 @@
                     <p class="fs-5 text-center fw-bold">Por: R$ 16,99</p>
                 </div>                 
             </div>
-            <div class="col-sm-12 col-lg-3">
+            <div class="col-sm-3">
                 <img src="imagens/04.jpg" class="pd mx-auto d-block" alt="">
                 <div class="col-sm-12">
                     <p class="fs-5 tdp text-center fw-bold">Leite em Pó Integral Ninho - 380g</p>
@@ -147,10 +149,10 @@
     -->
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid testemunhos">
         <div class="row">
-            <p class="fs-1 text-center">Testemunhos</p>
-            <p class="fs-5 text-center">Programa de Descontos, Atendimento de Excelência e a Entrefa mais rápida da região</p>
+            <p class="fs-1 text-center" id="test-ttl">Testemunhos</p>
+            <p class="fs-4 text-center" id="test-frs">Programa de Descontos, Atendimento de Excelência e a Entrefa mais rápida da região</p>
         </div>
         <div class="row justify-content-center gx-5 my-5 mx-5">
             <div class="col-sm-12 col-lg-5 my-3">
@@ -160,6 +162,33 @@
                 <img src="imagens/test2.jpg" class="img-tst" alt="">
             </div>
         </div>
+    </div>
+    
+    <hr class="hr">
+    
+    <div class="container-fluid mx-5 footer">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="imagens/logo2.webp" id="logoFooter" alt="">
+            </div>
+            <div class="col-sm-4">
+                <p class="fs-4" id="tel-footer">(21) 3500-6742 </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <p class="p-footer">Programa de Descontos, Atendimento de Excelência e a Entrega mais rápida da região</p>
+            </div>
+            <div class="col-sm-8">
+                <p class="p-footer">Av. das Américas, 19005 - Loja H - Recreio dos Bandeirantes, Rio de Janeiro - RJ, 22790-703</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+
+            </div>
+        </div>
+        
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
