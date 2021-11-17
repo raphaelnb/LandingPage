@@ -1,0 +1,54 @@
+@import url(https://fonts.google.com/specimen/Open+Sans);
+@import url(https://fonts.google.com/specimen/Roboto);
+
+.banner {
+    background-color: darkred;
+    color: white;
+    font-family: "Roboto";
+    opacity: .92;
+   padding: 0 !important;
+}
+
+
+
+#gg {
+    font-size: 6vw;
+    font-weight: 700;
+}
+
+#ent {
+    background-color: white;
+    padding: 3%;
+    color: orange;
+    width: 80%;
+    border-radius: 5%;
+    margin: 0 2% 0 2%;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+
+
+#img-logo {
+    width: 261px;
+    height: auto;
+}
+
+#img-bnc {
+    width: 80%;
+    height: auto;
+}
+
+#img-tst {
+    width: 30%;
+    height: auto;
+}
+
+.pd {
+    width: 160px;
+    height: auto;
+}
+
+.tpd {
+    color:black;
+}
